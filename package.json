@@ -11,7 +11,8 @@
   ],
   "activationEvents": [
     "onCommand:vtn2-c++-stuff.newClass",
-    "onCommand:vtn2-c++-stuff.newHeaderFile"
+    "onCommand:vtn2-c++-stuff.newHeaderFile",
+    "onCommand:vtn2-c++-stuff.createImplStub"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -23,6 +24,10 @@
       {
         "command": "vtn2-c++-stuff.newHeaderFile",
         "title": "C++: New Header File"
+      },
+      {
+        "command": "vtn2-c++-stuff.createImplStub",
+        "title": "C++: Create Implementation Stub"
       }
     ]
   },
